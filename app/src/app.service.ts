@@ -7,6 +7,6 @@ export class AppService {
 
   getHello(): string {
     const author = this.config.get('AUTHOR');
-    return `Hello World! By ${author}`;
+    return `Hello World! By ${author} Ver.2`;
   }
 }
